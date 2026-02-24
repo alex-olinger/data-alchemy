@@ -1,0 +1,38 @@
+# Python
+
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# environment variables
+.env
+.env.*
+
+
+# Jupyter Notebooks
+
+.ipynb_checkpoints/
+
+# Data
+
+data/raw/*
+data/processed/*
+
+# folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
